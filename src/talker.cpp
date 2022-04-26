@@ -106,7 +106,7 @@ int main(int argc, char **argv)
  ros::Subscriber state_sub = 
 nh.subscribe<geometry_msgs::TransformStamped> 
 
- ("vicon/drilling5/drilling5", 10, state_cb); 
+ ("vicon/birds/birds", 10, state_cb); 
 
  ros::Publisher local_pos_pub = 
 nh.advertise<geometry_msgs::PoseStamped> 
